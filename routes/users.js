@@ -95,4 +95,8 @@ router.post('/delete-product',(req,res)=>{
     res.json(response)
   })
 })
+
+router.get('/place-order',(req,res)=>{
+  res.render('user/place-order')
+})
 module.exports = router;
